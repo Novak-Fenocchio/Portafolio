@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url("../images/portada.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 10vh;
+    font-size: 5vw;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
