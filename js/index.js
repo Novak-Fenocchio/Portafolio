@@ -1,2 +1,2 @@
-/* ScrollReveal().reveal('.article_planet', { delay: 200 });
- */
+ ScrollReveal().reveal('.language', { delay: 200 });
+ ScrollReveal().reveal('.page', { delay: 200 });

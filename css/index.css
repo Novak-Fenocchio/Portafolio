@@ -1,7 +1,17 @@
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
 body {
     background-color: black;
     color: white;
 }
+
+
+/**Header**/
 
 header {
     background-image: url("../images/portada.jpg");
@@ -12,7 +22,7 @@ header {
 }
 
 header h1 {
-    padding-top: 10vh;
+    padding-top: 7vh;
     font-size: 5vw;
 }
 
@@ -21,5 +31,162 @@ header h1 {
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
-    width: 25%;
+    margin-top: 2vw;
+    width: 30%;
+}
+
+.data h5 {
+    font-size: 2.5vw;
+}
+
+.sombreado {
+    background: rgba(0, 0, 0, 0.658);
+}
+
+.data i {
+    color: rgb(31, 74, 194);
+    margin-right: 0.5vw;
+}
+
+
+/**Section skills**/
+
+section {
+    background: rgb(22, 22, 22);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6vw;
+    padding-top: 2vw;
+    padding-right: 6vw;
+    width: 80%;
+}
+
+section h4 {
+    font-weight: lighter;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.language {
+    background: rgb(3, 22, 75);
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 0px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+.grid {
+    width: 70%;
+}
+
+.grid h3 {
+    font-size: 2vw;
+    padding-top: 0.7vw;
+    padding-left: .5vw;
+    float: left;
+}
+
+article .grid img {
+    width: 100%;
+}
+
+.level {}
+
+.barras {
+    margin-top: 1.5vw;
+}
+
+.barra1 {
+    border-right: 5px solid white;
+    height: 1vh;
+    margin-left: 0.5vw;
+    padding-top: 0.2vw;
+}
+
+.barra2 {
+    border-right: 5px solid white;
+    height: 1.5vh;
+    margin-left: 0.5vw;
+    padding-top: 0.6vw;
+}
+
+.barra3 {
+    border-right: 5px solid white;
+    height: 2vh;
+    margin-left: 0.5vw;
+    padding-top: 1.2vw;
+}
+
+
+/**Projects**/
+
+.section_proyects {
+    padding-bottom: 2vw;
+}
+
+.page {
+    background: rgb(255, 255, 255);
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 0px solid #000000;
+    color: black;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin-top: 2vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 100%;
+}
+
+.page img {
+    width: 100%;
+}
+
+.explanation {
+    padding-left: 2vw;
+}
+
+.explanation h5 {
+    padding-top: 1vw;
+}
+
+.explanation a {
+    display: block;
+    margin-top: 4vw;
+}
+
+a button {
+    background: rgb(3, 22, 75);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    color: white;
+    font-size: 1.5vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    transition: all 0.3s;
+}
+
+a button:hover {
+    background: rgb(10, 36, 107);
+    transform: scale(1.2);
 }
