@@ -17,7 +17,9 @@
     width: 100%;
   }
   section {
-    width: 90%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 95%;
   }
   .section_skills h2 {
     font-size: 6vw;
