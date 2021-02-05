@@ -1,137 +1,142 @@
-@media(max-width: 800px) {
-    header {
-        height: 15vh;
-    }
-    header h1 {
-        font-size: 8vw;
-        padding-top: 4vw;
-    }
-    header h5 span {
-        font-size: 4vw;
-    }
-    .data {
-        width: 50%;
-    }
-    /* Languages */
-    main {
-        width: 100%;
-    }
-    section {
-        width: 90%;
-    }
-    .section_skills h2 {
-        font-size: 6vw;
-    }
-    .section_skills h4 {
-        font-size: 4vw;
-    }
-    .languages {
-        display: block;
-    }
-    .grid img {
-        padding-top: 1vw;
-    }
-    .language {
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-    }
-    .language h3 {
-        font-size: 4vw;
-        padding-left: 2vw;
-        margin-top: 3vw;
-    }
-    .barras_container {
-        padding-right: 1vw;
-    }
-    .barras {
-        padding-left: 2vw;
-    }
-    /* Proyects */
-    .section_proyects h2 {
-        font-size: 6vw;
-    }
-    .section_proyects h4 {
-        font-size: 4vw;
-        padding-bottom: 3vw;
-    }
-    .page {
-        display: grid;
-        grid-template-columns: 30% 70%;
-    }
-    .page h2 {
-        font-size: 4vw;
-    }
-    .page h5 {
-        font-size: 3vw;
-        color: rgb(17, 17, 17);
-    }
-    .container_real span {
-        font-size: 2vw;
-        background-color: rgb(23, 255, 166);
-        padding: 0.5vw 0.9vw 0.5vw 0.9vw;
-        border-radius: 3px 3px 3px 3px;
-        -moz-border-radius: 3px 3px 3px 3px;
-        -webkit-border-radius: 3px 3px 3px 3px;
-    }
-    a button {
-        font-size: 2.5vw;
-        border-radius: 3px 3px 3px 3px;
-        -moz-border-radius: 3px 3px 3px 3px;
-        -webkit-border-radius: 3px 3px 3px 3px;
-        padding: 0.8vw 1.2vw 0.8vw 1.2vw;
-    }
-    /* Ver mas */
-    #mas_menos {
-        font-size: 4vw;
-    }
-    .ver_mas i {
-        font-size: 4vw;
-        padding-top: 0.5vw;
-        padding-right: 1vw;
-    }
-    /* Email */
-    .section_emails h2 {
-        font-size: 5vw;
-    }
-    label {
-        font-size: 3vw;
-    }
-    .formE {
-        font-size: 3vw;
-    }
-    .formM {
-        height: 30vw;
-    }
-    .submit {
-        font-size: 2.5vw;
-    }
-    /* footer */
-    footer {
-        font-size: 2vw;
-        margin-top: 2vw;
-        padding: 1vw 0.5vw 1vw 0.5vw;
-    }
-    .container_footer {
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
-    .container_footer img {
-        margin-left: 7vw;
-        width: 70%;
-    }
-    footer a i {
-        font-size: 3vw;
-    }
-    footer span {
-        padding-top: 4vw;
-        padding-left: 1vw;
-    }
-    footer h4 {
-        font-size: 3vw;
-        padding-bottom: 1vw;
-    }
-    footer h5 {
-        font-size: 3vw;
-    }
+@media (max-width: 800px) {
+  header {
+    height: 15vh;
+  }
+  header h1 {
+    font-size: 8vw;
+    padding-top: 4vw;
+  }
+  header h5 span {
+    font-size: 4vw;
+  }
+  .data {
+    width: 50%;
+  }
+  /* Languages */
+  main {
+    width: 100%;
+  }
+  section {
+    width: 90%;
+  }
+  .section_skills h2 {
+    font-size: 6vw;
+  }
+  .section_skills h4 {
+    font-size: 4vw;
+  }
+  .languages {
+    display: block;
+  }
+  .grid img {
+    padding-top: 1vw;
+  }
+  .language {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .languageh3 {
+    margin-top: 3vw;
+  }
+  .language h3 {
+    font-size: 4vw;
+    padding-left: 2vw;
+  }
+  .barras_container {
+    padding-right: 1vw;
+  }
+  .barras {
+    padding-left: 2vw;
+  }
+  /* Proyects */
+  .section_proyects h2 {
+    font-size: 6vw;
+  }
+  .section_proyects h4 {
+    font-size: 4vw;
+    padding-bottom: 3vw;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .page h2 {
+    font-size: 4vw;
+  }
+  .page h5 {
+    font-size: 3vw;
+    color: rgb(17, 17, 17);
+  }
+  .container_real span {
+    font-size: 2vw;
+    background-color: rgb(23, 255, 166);
+    padding: 0.5vw 0.9vw 0.5vw 0.9vw;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+  }
+  a button {
+    font-size: 2.5vw;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    padding: 0.8vw 1.2vw 0.8vw 1.2vw;
+  }
+  /* Ver mas */
+  #mas_menos {
+    font-size: 4vw;
+  }
+  .ver_mas i {
+    font-size: 4vw;
+    padding-top: 0.5vw;
+    padding-right: 1vw;
+  }
+  /* Email */
+  .section_emails h2 {
+    font-size: 5vw;
+  }
+  label {
+    font-size: 3vw;
+  }
+  .formE {
+    font-size: 3vw;
+  }
+  .formM {
+    height: 30vw;
+  }
+  .submit {
+    font-size: 2.5vw;
+  }
+  /* footer */
+  footer {
+    font-size: 2vw;
+    margin-top: 2vw;
+    padding: 1vw 0.5vw 1vw 0.5vw;
+  }
+  .container_footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .container_footer img {
+    margin-left: 7vw;
+    width: 70%;
+  }
+  footer a i {
+    font-size: 3vw;
+  }
+  footer span {
+    padding-top: 4vw;
+    padding-left: 1vw;
+  }
+  footer h4 {
+    font-size: 3vw;
+    padding-bottom: 1vw;
+  }
+  footer h5 {
+    font-size: 3vw;
+  }
+  .padding {
+    margin-top: 0;
+  }
 }
