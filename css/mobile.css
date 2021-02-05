@@ -65,7 +65,6 @@
   }
   .page h5 {
     font-size: 3vw;
-    color: rgb(17, 17, 17);
   }
   .container_real span {
     font-size: 2vw;
@@ -81,6 +80,11 @@
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     padding: 0.8vw 1.2vw 0.8vw 1.2vw;
+  }
+  /* Articles */
+  .section_blog article img {
+    margin-left: 3vw;
+    width: 80%;
   }
   /* Ver mas */
   #mas_menos {
