@@ -19,9 +19,9 @@
 
 <body>
     <section class="inicio">
-        <span class="presentation">Guía basíca de <span class="laravel">Laravel 8</span></span> <br>
-        <span class="author">Creado por: <a href="https://github.com/Novak-Fenocchio"  target="_AUTOBLANK">Martín Fenocchio</a></span> <br>
-        <span class="someerror">Cualquier error, reportamelo en Git Hub.</span> <br>
+        <span class="presentation">Guía básica de <span class="laravel">Laravel 8</span></span> <br>
+        <span class="author">Creado por: <a href="https://novak-fenocchio.github.io/Portafolio/"  target="_AUTOBLANK">Martín Fenocchio</a></span> <br>
+        <span class="someerror">Cualquier error, reportamélo en Git Hub.</span> <br>
         <img src="images/arrow.png" alt="">
     </section>
 
@@ -67,11 +67,11 @@
             php artisan make:controller nombreControlador
         </div>
         <p class="w60">En la carpeta <span class="routeInside">App\Http\Controllers\tuControlador</span></p>
-        <h3>Dentro de la clase, puedes escribir todas las routas que quieras!</h3>
+        <h3>Dentro de la clase, puedes escribir todas las rutas que quieras!</h3>
         <div class="codeBig">
            <pre>public function nombreLink()</pre>
            <pre>{</pre>
-          <pre>return view('fenocchio');</pre>
+          <pre>return view('nombreLink');</pre>
             <pre>}</pre>
         </div>
         <p class="w60">Combinado con un route en <span class="routeInside">web.php</span>, funcionará.</p>
@@ -92,7 +92,7 @@
     <section class="section1">
         <h1>Crear una tabla en Laravel</h1>
         <h3>Debes crear un model, con él te
-            comunicaras con una tabla.
+            comunicarás con una tabla.
         </h3>
         <div class="" style="display:none">
             Cada tabla tiene su modelo!
@@ -101,7 +101,7 @@
            Esto te permite insertar,actualizar y eliminar datos!
         </div>
         <div class="alert" style="display:none">
-            Asegurate de tener bien la conexion a la base!
+            Asegúrate de tener bien la conexion a la base!
         </div>
         <div class="code">
             php artisan make:model nombreDeLaTabla -m
@@ -124,7 +124,7 @@
         <div class="code">
             php artisan migrate
         </div>
-        <h3>Con esto, se creara la tabla en tu base!</h3>
+        <h3>Con esto, se creará la tabla en tu base!</h3>
     </section>
 
     <section class="section3">
@@ -173,12 +173,14 @@
         </div>
 
         <h3>En el HTML, imprimimos la variable:</h3>
-        <div class="codeBig w50" >
+        <div class="codeBig w70" >
             <pre>@foreach ($DatosDeLaBase as $DatoDeLaBase)</pre>
                 <pre>< h1> $DatoDeLaBase->columnaDelDato < h1 ></pre>
             <pre>@endforeach</pre>
         </div>
-        <h3>Se imprimira!</h3>
+        <h3>Se imprimirá!</h3>
+
+      <a href="https://novak-fenocchio.github.io/Portafolio/" target="_AUTOBLANK"><button>Volver a mi portafolio</button></a>
     </section>
 
     <footer>

@@ -112,7 +112,7 @@ section {
   margin-left: auto;
   text-align: left;
   padding: 1vw 1vw;
-  width: 40%;
+  width: 50%;
 }
 pre {
   color: white;
@@ -172,4 +172,20 @@ footer h4 {
   color: white;
 
   padding-bottom: 1vw;
+}
+button {
+  background-color: rgb(63, 6, 128);
+  border: 2px solid rgb(63, 6, 128);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5vw 1vw;
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: rgb(49, 3, 102);
+  border: 2px solid rgb(49, 3, 102);
+  transform: scale(1.1);
 }
