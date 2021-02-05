@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="https://www.kindpng.com/picc/m/25-257834_freetoedit-png-stars-galaxy-transparent-outer-space-png.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/mobile.blog.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Martín Fenocchio</title>
+</head>
+
+<body>
+    <section class="inicio">
+        <span class="presentation">Guía basíca de <span class="laravel">Laravel 8</span></span> <br>
+        <span class="author">Creado por: <a href="https://github.com/Novak-Fenocchio"  target="_AUTOBLANK">Martín Fenocchio</a></span> <br>
+        <span class="someerror">Cualquier error, reportamelo en Git Hub.</span> <br>
+        <img src="images/arrow.png" alt="">
+    </section>
+
+    <section class="sectionLightBlue">
+        <h1>Crear un proyecto de Laravel</h1>
+        <h3>En la consola y en la carpeta que quieres, ejecuta:</h3>
+        <div class="code">composer create-project laravel/laravel nombreDelProyecto</div>
+        <h3>Para ejecutarlo en el navegador:</h3>
+        <div class="code">
+           cd nombreDelProyecto
+        </div> <br> <br> <br>
+        <div class="code">
+            php artisan serve
+        </div>
+        <p class="w60">
+            Abre el link http que se muestra en la consola.</p>
+        <p class="route w50" >http://127.0.0.1:8000/index</p>
+        <h3>Ejecutará la ruta Index.</h3>
+
+    </section>
+
+    <section class="sectionPink">
+        <h1>Rutas</h1>
+        <h3>Las rutas redireccionan según el link que escribas en la barra de direcciones.</h3>
+        <p class="w30">En la carpeta <span class="routeInside">Routes\web.php</span></p>
+        
+        <h3>Ejemplo de ruta:</h3>
+        <div class="codeBig w50" style="padding: 1vw 3vw;">
+          <pre>Route::get('/nombreDelLink', function () { </pre>
+            <pre>return 'Hellow world';</pre>
+            });
+        </div>
+        <h3>Para crear la ruta que queramos, cambiamos los valores.</h3>
+
+    </section>
+
+
+    <section class="crema">
+        <h1>Crear un Controlador</h1>
+        <h3>Los controladores son 'gestores' de rutas, que las agrupan facílmente.</h3>
+        <h3>Para crear uno, ejecutamos:</h3>
+        <div class="code">
+            php artisan make:controller nombreControlador
+        </div>
+        <p class="w60">En la carpeta <span class="routeInside">App\Http\Controllers\tuControlador</span></p>
+        <h3>Dentro de la clase, puedes escribir todas las routas que quieras!</h3>
+        <div class="codeBig">
+           <pre>public function nombreLink()</pre>
+           <pre>{</pre>
+          <pre>return view('fenocchio');</pre>
+            <pre>}</pre>
+        </div>
+        <p class="w60">Combinado con un route en <span class="routeInside">web.php</span>, funcionará.</p>
+        <h3>Web.php:</h3>
+        <div class="code">
+            Route::get('/nombreDelLink', [nombreControlador::class, 'nombreDelLink']);
+
+        </div>
+    </section>
+
+    <section class="sectionOrange">
+        <h1>Enlazar la base de datos</h1>
+        <h3>Debes crear la base, como con PhpMyAdmin.</h3>
+        <p class="w50">Luego, ir al archivo <span class="routeInside">.env</span></p>
+        <h3>Busca: 'DB_DATABASE=' y ponle el nombre de tu base.</h3>
+    </section>
+ 
+    <section class="section1">
+        <h1>Crear una tabla en Laravel</h1>
+        <h3>Debes crear un model, con él te
+            comunicaras con una tabla.
+        </h3>
+        <div class="" style="display:none">
+            Cada tabla tiene su modelo!
+        </div>
+        <div class="" style="display:none">
+           Esto te permite insertar,actualizar y eliminar datos!
+        </div>
+        <div class="alert" style="display:none">
+            Asegurate de tener bien la conexion a la base!
+        </div>
+        <div class="code">
+            php artisan make:model nombreDeLaTabla -m
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1>Enivar la tabla </h1>
+        <h3>Para crear la tabla debemos migrarla, ejecuta:
+        </h3>
+        <div class="" style="display:none">
+            Cada tabla tiene su modelo!
+        </div>
+        <div class="" style="display:none">
+           Esto te permite insertar,actualizar y eliminar datos!
+        </div>
+        <div class="alert" style="display:none">
+            Asegurate de tener bien la conexion a la base!
+        </div>
+        <div class="code">
+            php artisan migrate
+        </div>
+        <h3>Con esto, se creara la tabla en tu base!</h3>
+    </section>
+
+    <section class="section3">
+        <h1>Añadir un dato </h1>
+        <h3>Para añadir un dato a la tabla, debemos ejecutar:</h3>
+        
+        <div class="code">
+            php artisan tinker
+        </div>
+        
+        <p>Tinker es un modo donde podemos probar nuestra tabla.
+         Para añadir un dato, ejecuta las 3 líneas:</p>
+
+        <h3>Seleccionamos la tabla</h3>
+        <div class="code">
+            $report = new App\Models\nombreDeLaTabla();
+        </div>
+
+        <h3>Escribimos el dato a añadir</h3>
+        <div class="code">
+            $report->columnaDeTuTabla = 'dato a añadir';
+        </div>
+
+        <h3>Enviamos el dato en la tabla</h3>
+        <div class="code">
+            $report->save()';
+        </div>
+    </section>
+
+    <section class="exito">
+        <h1>Listo! El dato esta en nuestra tabla.</h1>
+    </section>
+
+    <section class="crema">
+        <h1>Cómo lo imprimimos?</h1>
+        <h3>Con un ForEach, claro.</h3>
+        <p>En nuestro controller, redirigimos a nuestro HTML, así:</p>
+        <div class="codeBig">
+                public function index() <br>
+                { <br>
+                    return view( <br>
+                        <pre>  'rutaDeHTML',</pre>
+                        <pre>[ </pre>
+                            'DatosDeLaBase' => nombreDeLaTabla::all()
+                 <pre>]</pre> <pre>);}</pre>
+        </div>
+
+        <h3>En el HTML, imprimimos la variable:</h3>
+        <div class="codeBig w50" >
+            <pre>@foreach ($DatosDeLaBase as $DatoDeLaBase)</pre>
+                <pre>< h1> $DatoDeLaBase->columnaDelDato < h1 ></pre>
+            <pre>@endforeach</pre>
+        </div>
+        <h3>Se imprimira!</h3>
+    </section>
+
+    <footer>
+        <div class="container_footer">
+            <img src="https://lh3.googleusercontent.com/WzJPTcr8fYxRyl4XAQbQOqCT-DbzgYIioVZ313pr45Cp6JJkkMxw3IRC_6nXzik6NQ6q-PwX6odpJ53WLxpJzOnLPFPtUio9r-w_XpPsi4Ag4WR6546hHGZzb_j37C3Ted9ATFDmEJOlvcV5njIZSAfYSEGxIHOYvL9ev0Wq2Y5v18fJoyA1iQrRMSmgSRH0gb8HzV_s0EaZe7PzbN8GXRgjKupaTzw1RZZQ_dF1kEQwY720JhopwvrDA-fxX6c2jfOyNE9SYSG5UVCpUTi5dAmtItAumd2iQh1l6dEW6oU4-YmNos5UJfwK6opM5s6xZnOY5qaA4DGtHwgyW8NUiDI-Gupn87FtBZAeWxXPk7RkG5yOztPOCusuZ2bQ8BcY4o8UrlZcpPru7jtilVbFHI2zTWXYEFVPAMSkFEkETGbV4LFqtvpsbLzIvi12mI39Cthb5IKcLulYtFTv1LZdLNpF88W8MXcEs8MZRjO2wUxQYxa7uAVImyod_FveQFDjSSBfhXKwA6bHNy8p908Ec-VYoSUx1V2DonDqClC1NvcPwl-0XWswqJELHjmxHXF1qXVmUrlh-jdjyJeOQxm_rGweuQSZOxRh9ZRNy1Q-e2jj2ED-BBtg4uwpiW-AOewlRL0O36SyatX2-Y5MRYNZuLGrNNnPLGvwwdDv9zEO7DQf5MoMaZbpxAh-lNJTAPM=s540-no?authuser=0"
+                alt="">
+            <span>
+                <h4>Martín Fenocchio</h4>
+                <h5>fenomartin6@gmail.com</h5>
+                <a href="https://www.instagram.com/mar.feno/" target="_AUTOBLANK">
+                    <i class="fab fa-instagram"></i>
+                </a> 
+            <a href="https://github.com/Novak-Fenocchio?tab=repositories" target="_AUTOBLANK">
+                <i class="fab fa-github"></i>
+            </a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/bd9aaa656f.js " crossorigin="anonymous "></script>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.aniview.js'></script>
+    <script src='js/index.js'></script>
+</body>
+</html>

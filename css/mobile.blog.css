@@ -1,0 +1,53 @@
+@media (max-width: 800px) {
+  h1 {
+    font-size: 9vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 6vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width: 95%;
+  }
+  section {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .code {
+    font-size: 4.5vw;
+  }
+  .codeBig {
+    font-size: 4.5vw;
+    width: 95%;
+  }
+  .w30,
+  .w50,
+  .w60 {
+    width: 95%;
+  }
+  .routeInside {
+    font-size: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .inicio {
+    text-align: center;
+  }
+  .presentation {
+    font-size: 8vw;
+  }
+  .author {
+    font-size: 5vw;
+  }
+  .someerror {
+    font-size: 3vw;
+  }
+  .container_footer {
+    padding-bottom: 2vh;
+  }
+  .container_footer img {
+    padding-top: 4vh;
+  }
+}

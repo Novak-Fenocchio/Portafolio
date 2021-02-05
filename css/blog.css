@@ -1,0 +1,175 @@
+*,
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.w60 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.w50 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.w30 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-size: 2vw;
+}
+p {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2vw;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.route {
+  background-color: green;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+.routeInside {
+  background-color: green;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  padding: 0.3vw 0.5vw;
+}
+section {
+  text-align: center;
+  padding: 2vw;
+}
+.section1 {
+  background-color: brown;
+  color: white;
+}
+.section2 {
+  background-color: white;
+  color: black;
+}
+.section3 {
+  background-color: rgb(63, 6, 128);
+  color: white;
+}
+.exito {
+  background-color: rgb(3, 97, 3);
+  color: white;
+}
+.sectionOrange {
+  background-color: chocolate;
+  color: black;
+}
+.sectionPink {
+  background-color: rgb(255, 217, 167);
+  color: black;
+}
+.crema {
+  background-color: rgb(236, 255, 168);
+  color: black;
+}
+.sectionLightBlue {
+  background-color: rgb(39, 74, 226);
+  color: black;
+}
+.code {
+  background-color: rgb(31, 31, 31);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  display: inline;
+  font-size: 2vw;
+  padding: 1vw 1vw;
+}
+.codeBig {
+  background-color: rgb(31, 31, 31);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  font-size: 2vw;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  padding: 1vw 1vw;
+  width: 40%;
+}
+pre {
+  color: white;
+}
+/* Presentation */
+.presentation {
+  font-size: 6vw;
+}
+.laravel {
+  color: crimson;
+}
+.author {
+  font-size: 3vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.someerror {
+  padding-top: 5vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Footer */
+footer {
+  background: rgb(22, 22, 22);
+  font-size: 2vw;
+  padding: 1vw 0.5vw 1vw 0.5vw;
+  text-align: left;
+}
+
+.container_footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container_footer img {
+  border-radius: 50%;
+  margin-left: 12vw;
+  width: 50%;
+}
+
+footer i {
+}
+
+footer a i {
+  color: white;
+}
+
+footer span {
+  color: white;
+
+  padding-top: 2vw;
+  padding-left: 1vw;
+}
+
+footer h4 {
+  color: white;
+
+  padding-bottom: 1vw;
+}
