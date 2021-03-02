@@ -9,6 +9,12 @@
   header h5 span {
     font-size: 4vw;
   }
+  h2 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 4vw;
+  }
   .data {
     width: 50%;
   }
@@ -42,13 +48,33 @@
   }
   .language h3 {
     font-size: 4vw;
-    padding-left: 2vw;
+    padding-left: 6vw;
   }
   .barras_container {
     padding-right: 1vw;
   }
   .barras {
     padding-left: 2vw;
+  }
+  /* future */
+  .language_future {
+    border-radius: 5px;
+  }
+  .grid {
+    grid-template-columns: 10% 90%;
+  }
+  .image-future {
+    padding-bottom: 1vw;
+    width: 200%;
+  }
+  .title-future {
+    align-items: center;
+    display: flex;
+    justify-content: baseline;
+    padding-bottom: 1vw;
+  }
+  .language_future {
+    padding: 1vw 2vw;
   }
   /* Proyects */
   .section_proyects h2 {
