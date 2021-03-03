@@ -171,4 +171,10 @@
   .padding {
     margin-top: 0;
   }
+  .verMiCV {
+    font-size: 4vw;
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+    width: 60%;
+  }
 }
