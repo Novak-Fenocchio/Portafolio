@@ -208,29 +208,55 @@ section h4 {
 .container_real span {
   background-color: rgb(23, 255, 166);
   padding: 0.5vw 0.5vw 0vw 0.5vw;
-  border-radius: 9px 9px 9px 9px;
-  -moz-border-radius: 9px 9px 9px 9px;
-  -webkit-border-radius: 9px 9px 9px 9px;
+  border-radius: 5px;
   border: 0px solid #000000;
 }
-
-a button {
-  background: rgb(3, 22, 75);
+.container-buttons {
+  display: flex;
+}
+.btn-blue button {
+  background: rgb(32, 73, 187);
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   border: 0px solid #000000;
   color: white;
   font-size: 1.5vw;
+  margin-right: 2vw;
   padding: 0.5vw 1vw 0.5vw 1vw;
   transition: all 0.3s;
 }
 
 a button:hover {
-  background: rgb(10, 36, 107);
-  transform: scale(1.2);
+  background: rgb(23, 62, 170);
+  transform: scale(1.1);
+}
+.btn-green button {
+  background: rgb(18, 206, 134);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #ffffff;
+  color: white;
+  font-size: 1.5vw;
+  margin-right: 2vw;
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  transition: all 0.3s;
 }
 
+.btn-min button {
+  border: 2px solid rgb(10, 36, 107);
+  border-color: rgb(10, 36, 107);
+  background-color: white;
+  color: rgb(10, 36, 107);
+}
+.btn-min button:hover {
+  border: 2px solid rgb(10, 36, 107);
+  border-color: rgb(10, 36, 107);
+  background-color: white;
+  color: rgb(10, 36, 107);
+  transform: none;
+}
 /* ver más*/
 
 .ver_mas {
