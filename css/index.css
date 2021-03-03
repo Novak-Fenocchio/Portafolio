@@ -428,3 +428,17 @@ footer span {
 footer h4 {
   padding-bottom: 1vw;
 }
+.contenedor-boton {
+  text-align: center;
+}
+.verMiCV {
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  margin-top: 2vw;
+  transition: all 0.3s;
+  width: 40%;
+}
+.verMiCV:hover {
+  transform: scale(1.1);
+}
