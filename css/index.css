@@ -192,12 +192,14 @@ section h4 {
 }
 
 .explanation h5 {
+  font-weight: normal;
+  margin-top: 1vw;
   padding-top: 1vw;
 }
 
 .explanation a {
   display: block;
-  margin-top: 4vw;
+  margin-top: 2vw;
 }
 
 .container_real {
@@ -315,6 +317,9 @@ a button:hover {
 .section_blog article {
   background-color: rgb(10, 36, 107);
   color: white;
+}
+.section_blog article h5 {
+  font-weight: lighter;
 }
 .section_blog article img {
   margin-left: 5vw;

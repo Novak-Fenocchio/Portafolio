@@ -124,6 +124,9 @@
     margin-left: 3vw;
     width: 80%;
   }
+  .explanation a {
+    margin-top: 0vw;
+  }
   /* Ver mas */
   #mas_menos {
     font-size: 4vw;
