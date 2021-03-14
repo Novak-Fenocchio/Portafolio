@@ -1,6 +1,13 @@
 @media (max-width: 800px) {
   header {
+    background-image: url("../images/portada.jpg");
+    background-size: cover;
+    background-position: center;
     height: 15vh;
+  }
+  header video
+  {
+    display: none;
   }
   header h1 {
     font-size: 8vw;
